@@ -1,4 +1,4 @@
-from strategy.python.objects import *
+from .objects import *
 
 nikonCamera = Camera("D5600", "Nikon", INikonSnapshotBehavior())
 print(nikonCamera.snapshot())
